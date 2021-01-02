@@ -1,0 +1,150 @@
+*, *::before , *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    background: white;
+}
+.nav {
+    display: flex;
+    /* position: fixed; */
+    /* top: 0; */
+    width: 100%;
+    height: 50px;
+    background: rgb(187, 180, 180);
+    padding: 0.5em 1em;
+}
+        
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    /* position: absolute;
+    right: 0; */
+    }
+.nav_a {
+    padding: 30px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+.nav_ab{
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+.seccion1_menu_derecha {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+    position: absolute;
+    right: 0;
+    
+}
+.fono_correo {
+    margin: 10px;
+}
+
+.fono_correo_a{
+    color: red;
+    border-right: 1px solid;
+    padding: 0 10px;
+}
+
+.fono_correo_b {
+    padding: 0 10px;
+    color: black;
+}
+
+.fono_correo a {
+    text-decoration: none;
+    font-size: 16px;
+    }
+
+
+.nav_boton {
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
+    font-size: 10px;
+    border-radius: 8px;
+}
+
+main {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.cuerpo header h1 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.cuerpo header p {
+    margin-top: 1.5em;
+}
+
+.cuerpo header h4 {
+    margin-top: 3em;
+    color: red;
+    font-size: 10px;
+}
+
+.cuerpo header div {
+    margin-top: 1.5em;
+    width: 300px;
+    height: 40px;
+    background: grey;
+    border-radius: 7px;
+}
+
+.cuerpo header div button {
+    background: red;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 190px;
+}
+
+.imagen {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 15%;
+    right: 20%;
+}
+
+.iconos{
+    background: rgb(255, 255, 255);
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+.iconos img{
+    width: 20px;
+    height: 20px;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
